@@ -7,7 +7,7 @@ import java.net.URLConnection;
 import java.util.List;
 import java.util.Map;
 
-public class Rce2019Test {
+public class fastjsonRce2019 {
 
     public static void payloadTest(String url,String serverAddr,String cookies) {
         PrintWriter out = null;
