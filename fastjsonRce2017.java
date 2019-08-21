@@ -16,7 +16,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 @SuppressWarnings("all")
-public class fastjsonRce2018 {
+public class fastjsonRce2017 {
 
     public static void payloadTest(String url,String cookies,String payload) {
         PrintWriter out = null;
